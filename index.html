@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Basht</title>
+<meta name="description" content="Basht · Smash Ultimate · frame data, clips y análisis">
+<meta property="og:title" content="Basht"><meta property="og:image" content="logo.jpg">
+<link rel="icon" href="logo.jpg">
+<style>
+:root { --oro:#ffd628; --noche:#14171f; --tinta:#1d252c; --gris:#8b97a4; --texto:#f3f5f8; --azul:#41c4e8; }
+* { box-sizing:border-box; }
+body { margin:0; min-height:100vh; color:var(--texto); font-family:"Segoe UI",system-ui,-apple-system,sans-serif;
+       background:radial-gradient(120% 70% at 50% 0%, #1b2a55 0%, #0d1328 45%, var(--noche) 100%); display:flex; justify-content:center; }
+body::before { content:""; position:fixed; inset:0; pointer-events:none; opacity:.18;
+       background:linear-gradient(transparent 0 calc(100% - 1px), var(--azul) 0) 0 0/100% 44px,
+                  linear-gradient(90deg, transparent 0 calc(100% - 1px), var(--azul) 0) 0 0/44px 100%;
+       mask-image:linear-gradient(to bottom, transparent 40%, #000 100%); }
+main { position:relative; width:100%; max-width:460px; padding:56px 16px 40px; text-align:center; }
+.logo { width:200px; height:200px; border-radius:50%; object-fit:cover; border:3px solid var(--azul);
+        box-shadow:0 0 0 7px rgba(65,196,232,.14), 0 0 46px rgba(65,196,232,.55), 0 0 110px rgba(31,95,168,.45); }
+.sub { margin:22px 0 30px; color:#b9c6d4; font-weight:600; }
+.red { display:flex; align-items:center; gap:14px; padding:14px 16px; margin:0 0 12px; border-radius:14px; text-align:left;
+        background:rgba(29,37,44,.82); border:1px solid #2c3846; color:var(--texto); text-decoration:none;
+        transition:transform .12s, border-color .12s, box-shadow .12s; }
+a.red:hover, a.red:focus-visible { transform:translateY(-2px); border-color:var(--oro); box-shadow:0 6px 22px rgba(255,214,40,.16); outline:none; }
+.ic { flex:none; width:44px; height:44px; border-radius:12px; display:grid; place-items:center; background:color-mix(in srgb, var(--c) 16%, transparent); }
+.ic svg { width:24px; height:24px; fill:var(--c); }
+.tx { flex:1; display:flex; flex-direction:column; gap:2px; min-width:0; }
+.n { font-weight:800; font-size:17px; } .d { color:var(--gris); font-size:14px; overflow:hidden; text-overflow:ellipsis; white-space:nowrap; }
+.fl { color:var(--oro); font-weight:800; }
+.pronto { opacity:.55; } .pronto .fl { color:var(--gris); font-size:13px; font-weight:700; }
+footer { margin-top:30px; color:var(--azul); opacity:.7; font-size:12px; letter-spacing:.3em; }
+</style>
+</head>
+<body>
+<main>
+  <h1 style="margin:0"><img class="logo" src="logo.jpg" alt="Basht"></h1>
+  <p class="sub">Smash Ultimate · frame data, clips y análisis</p>
+  <nav>
+    <a class="red" href="https://www.tiktok.com/@basht.tv" rel="me noopener" target="_blank"><span class="ic" style="--c:#25f4ee"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14 3v11.5a3.5 3.5 0 1 1-3-3.46V8.1A6.5 6.5 0 1 0 17 14.5V8.8a7 7 0 0 0 4 1.2V7a4 4 0 0 1-4-4z"/></svg></span><span class="tx"><span class="n">TikTok</span><span class="d">@basht.tv</span></span><span class="fl">→</span></a>
+    <a class="red" href="https://www.youtube.com/@SSBUBasht" rel="me noopener" target="_blank"><span class="ic" style="--c:#ff3b3b"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 7.5C3 6 4 5 5.5 5h13C20 5 21 6 21 7.5v9c0 1.5-1 2.5-2.5 2.5h-13C4 19 3 18 3 16.5zM10 9v6l5-3z"/></svg></span><span class="tx"><span class="n">YouTube</span><span class="d">@SSBUBasht</span></span><span class="fl">→</span></a>
+    <a class="red" href="https://www.twitch.tv/solo_basht" rel="me noopener" target="_blank"><span class="ic" style="--c:#a970ff"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 3 3.5 6.5V19H8v3h3l3-3h4l3.5-3.5V3zm14 11.5L16.5 17h-4L10 19.5V17H6.5V5H19zM15 8h2v5h-2zm-5 0h2v5h-2z"/></svg></span><span class="tx"><span class="n">Twitch</span><span class="d">solo_basht</span></span><span class="fl">→</span></a>
+    <a class="red" href="https://x.com/BashtTtv" rel="me noopener" target="_blank"><span class="ic" style="--c:#e8ecf3"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 4h4.5l4 5.5L17 4h3l-6.1 7.4L20.5 20H16l-4.4-6L6.6 20H3.5l6.6-8z"/></svg></span><span class="tx"><span class="n">X</span><span class="d">@BashtTtv</span></span><span class="fl">→</span></a>
+  </nav>
+  <footer>BASHT.TV</footer>
+</main>
+</body>
+</html>
